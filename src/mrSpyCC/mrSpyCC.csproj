@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <RootNamespace>mrSpyCC</RootNamespace>
+    <AssemblyName>mrSpyCC</AssemblyName>
+    
+    <!-- aegisSoft Corporate Identity -->
+    <Company>aegisSoft</Company>
+    <Authors>mrSpy</Authors>
+    <Product>mrSpyCC — Advanced Control Center</Product>
+    <Title>mrSpyCC</Title>
+    <Description>Advanced Control Center &amp; ITE8291 RGB Engine for Tongfang/AiStone laptops</Description>
+    <Copyright>Copyright © 2026 aegisSoft. All rights reserved.</Copyright>
+    <Version>1.0.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+
+    <ApplicationIcon>resources\app.ico</ApplicationIcon>
+    
+    <!-- Single File & Standalone Options -->
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\logo.png" />
+    <Resource Include="resources\app.ico" />
+    <None Update="resources\app.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="resources\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

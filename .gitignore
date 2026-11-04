@@ -1,0 +1,40 @@
+# ==========================================
+# aegisSoft mrSpyCC - Git Ignore Rules
+# ==========================================
+
+# Build artifacts, outputs and intermediate objects
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+*.exe
+*.dll
+*.pdb
+*.msi
+*.appx
+singlefilehost.exe
+
+# Visual Studio & IDE user settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+GeneratedMSBuildEditorConfig.editorconfig
+
+# Local runtime state & configurations
+mrspycc_config.json
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Reference research repositories (external projects cloned locally)
+references/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
