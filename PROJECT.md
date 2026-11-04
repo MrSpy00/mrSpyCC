@@ -181,7 +181,7 @@ Mevcut 47+ efektin tamamında (ve gelecekte eklenecek tüm `IEffect` sınıflar�
 ## 5. Sistem Mimarisi ve Dizin Haritası
 
 ```text
-X:\mrspy\Reverse Engineering\Projeler\mrSpyCC\
+mrSpyCC/
 ├── PROJECT.md                                # Kapsamlı teknik ve operasyonel dökümantasyon
 ├── build.ps1                                 # Otomatik Release single-file derleme betiği
 ├── build\dist\mrSpyCC.exe                    # 64.0 MB Tek Bağımsız Taşınabilir Executable
