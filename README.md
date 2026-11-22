@@ -67,9 +67,9 @@ Resmi üretici yazılımlarının (Control Center / GCUBridge) ağır bellek tü
 * **Tek Renk / Çift Renk / Tam RGB:** 50+ efektin tamamını tek tıkla seçilen tek özel renge, 2-renkli akıllı geçişe veya 360° gökkuşağı dalgasına uyarlama.
 * **8 Küratörlü Stüdyo Paleti:** Cyberpunk 2077, aegisSoft Obsidian, Miami Synthwave, Aurora, Volkanik Magma, Tokyo Gece Yarısı, Matrix ve Kraliyet Altını.
 * **Per-Key Fırça Boyama:** Sürükle-bırak destekli çoklu tuş boyama ve profil saklama.
-* **Tam Donanım Eşleşmesi:** Game Garaj Slayer / Tongfang ISO klavyelerdeki `Sc` (Scroll Lock / FnLock, Ofset 333) tuşu ve Çift LED'li ISO Enter tuşu (`349` ve `321`) kusursuz hizalanmıştır.
+* **Tam Donanım Eşleşmesi:** Game Garaj Slayer / Tongfang ISO klavyelerdeki `Sc` (Scroll Lock / FnLock, Ofset 333) tuşu ve Çift LED'li ISO Enter tuşu (`349` ve `321`) birebir eşlenmiştir.
 
-### 🛡️ 5. Kurumsal Sistem & Donanım Güvenliği
+### 🛡️ 5. Sistem & Donanım Yönetimi
 * **GCUBridge Arbitrasyonu:** Üretici servisinin fan ve güç tablolarını kesintiye uğratmadan klavye RGB denetimini devralan özel Win32 kilit mimarisi.
 * **Hibrit Oto-Başlatma:** UAC onayı istemeyen Windows Görev Zamanlayıcı görevi (`mrSpyCC_AutoStart`) ve Görev Yöneticisi Başlangıç entegrasyonu.
 * **Explorer Çökme Korumalı Sistem Tepsisi:** Windows kabuğu veya `explorer.exe` yeniden başladığında tepsiyi otomatik onarma.
@@ -108,7 +108,7 @@ dotnet publish src\mrSpyCC\mrSpyCC.csproj -c Release -r win-x64 --self-contained
 
 ## ⚡ Overview & Purpose
 
-**mrSpyCC PRO v1.0** is an enterprise-grade, high-performance control center and RGB hardware engine designed for Tongfang / AiStone barebone gaming laptops (Game Garaj Slayer series, XMG Apex 16 Max, Schenker, Medion Erazer Major, etc.) equipped with the **ITE8291 USB HID RGB keyboard controller** (`VID_048D / PID_600B / MI_01`).
+**mrSpyCC v1.0** is a control center and RGB hardware engine for Tongfang / AiStone barebone laptops (Game Garaj Slayer series, XMG Apex 16 Max, Schenker, Medion Erazer Major, etc.) equipped with the **ITE8291 USB HID RGB keyboard controller** (`VID_048D / PID_600B / MI_01`).
 
 Developed by **[aegisSoft](https://aegissoft.com.tr)** and **[mrSpy](https://github.com/MrSpy00)** in C# / .NET 10 with pure Win32 Core APIs, mrSpyCC eliminates the heavy background footprint, low frame-rate stutter, and bloat of OEM software (Control Center / GCUBridge). It runs as a **single, portable, self-contained executable** with zero external dependencies and zero registry pollution.
 
